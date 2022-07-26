@@ -72,6 +72,8 @@ Este es mi curriculum vitae diseñado con HTML y CSS.
     <b>Ingles:</b>Intermedio
     </p>
 </div>
+    
+    
 
 <div class="contenido">
     <h2 class="titulo">Experiencia laboral</h2>
@@ -81,6 +83,43 @@ Este es mi curriculum vitae diseñado con HTML y CSS.
 
 </body>
 </html> 
+
+
+body{
+    background-color: thistle;
+}
+.contenedor{
+    border: 5px solid paleturquoise;
+    margin: 0 auto;
+    width: 60%;
+    background-color: pink;
+    padding: 10px;
+}
+.principal{
+    background-color: aquamarine;
+    padding: 10px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.header{
+    display: flex;
+}
+.nombre{
+    margin-left: 200px;
+    width: 500px;
+    
+}
+.titulo{
+    border:5px solid aquamarine;
+    background-color: white;
+    color: purple;
+    text-align: center;
+}
+p{
+    color: black;
+}
 
 
 
